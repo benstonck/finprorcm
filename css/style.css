@@ -259,7 +259,7 @@
         background: var(--bs-light);
         transition: .5s;
         opacity: 1;
-    }
+    }  
 }
 /*** Navbar End ***/
 
@@ -543,6 +543,18 @@
     position: relative;
     overflow: hidden;
     background: linear-gradient(rgba(1, 95, 201, 0.9), rgba(0, 0, 0, 0.2)), url(../img/digital-marketing.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding: 60px 0 60px 0; */
+    padding: 170px;
+    transition: 0.5s;
+}
+
+.healthcare-audit {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(rgba(1, 95, 201, 0.9), rgba(0, 0, 0, 0.2)), url(../img/new-img/audit.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
